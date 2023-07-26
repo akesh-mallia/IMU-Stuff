@@ -1,0 +1,9 @@
+sudo pip3 install --upgrade setuptools
+sudo pip3 install --upgrade adafruit-python-shell
+sudo pip3 install Adafruit-Blinka
+
+sudo git clone https://github.com/adafruit/Adafruit_LSM6DS/tree/master
+
+(note: cd to that git clone directory, put the IMU test code in that)
+
+note: sudo raspi-config (get that i2c on, it's in interfaces)
